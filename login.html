@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Page</title>
+    <link rel="stylesheet" href="login_css.css">
+    <script src="login_validation.js"></script>
+    
+</head>
+<body background="https://www.nrn.com/sites/nrn.com/files/emptydiner.gif">
+    
+        <form name="frmContact" action="/project/_login.php" class="container" method="post" onSubmit=" return Check()" >
+            <div class="font">Log in</div> <br>
+            <div class="username">
+                 <br> <input type="text" placeholder="Username" name="email" class="btn"><br>
+            </div>
+            <div class="password">
+                <br> <input type="password" placeholder=" Password" name="pass" class="btn">
+            </div>
+            <div class="forgot">
+                <span>Forgot password?</span>
+            </div>
+            <div>
+                
+                <input type="submit" value="login" class="log_in"></input>
+                
+            </div>
+            <hr>
+            <p class="middle">OR</p>
+
+            <span class="new_acc">Want New account?</span>
+            <button class="signup"> <a href="signup.html" target="_blank">Sign Up</a> </button>
+            
+        </form>
+</body>
+</html>

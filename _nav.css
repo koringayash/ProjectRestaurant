@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+header {
+    background-color: rgb(2, 2, 2);
+    height: 45px;
+    border-radius: 5px;
+    margin: auto;
+}
+/* Navigation Bar  List Option */
+ul {
+    display: inline;
+}
+
+ul li {
+    float: left;
+    padding: 6px 20px;
+    list-style-type: none;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header ul li a:hover {
+    text-decoration: none;
+    color: rgb(218, 35, 35);
+}
+
+/* For Right Side button oF Login/Logout */
+li.right {
+    float: right;
+    background-color: #0000ff;
+    border-radius: 10px;
+    position: relative;
+    right: 50px;
+    top: 2px;
+    
+}
+li.logout{
+    background-color: red;
+    color: black;
+}
+p.username{
+    display: inline;
+    color: rgb(235, 42, 12);
+    position: relative;
+    background-color: aliceblue;
+    right: 0px;
+    top: 10px;
+}
+li.right:hover {
+    background-color: rgb(207, 60, 175);
+}

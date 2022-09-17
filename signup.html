@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="style.css">
+<title>Sign up Form</title>
+<script src="signup.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form name="frmContact" method="post" action="/project/_signup.php" onSubmit=" return doCheck()">
+        <div class="user-details">
+          
+          <div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" name="Username" placeholder="Enter your username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="text" name="Email" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="tel" name="Phone_Number" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Date Of birth</span>
+            <input type="date" name="Date_Of_birth" placeholder="date of birth" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="Password" name="Password" placeholder="Enter your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Confirm Password</span>
+            <input type="Password" name="Confirm_Password" placeholder="Confirm your password" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" name="Address" placeholder="Enter your address" required>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

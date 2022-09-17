@@ -1,0 +1,105 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+        
+        span{
+            font-size: small;
+            font-weight: bold;
+            color: blue;
+        }
+        .container
+        {
+            border: 2px solid magenta;
+            padding: 15px;
+            width: 400px;
+            height: 480px;
+            margin: 100px auto;
+            background-color: rgb(69 169 185 / 88%);            
+        }
+        div.font
+        {
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 30px;
+            text-align: center;
+            background-color: red;
+            
+            /* line-height: 1; */
+        }
+        .btn
+        {
+            border-radius: 25px;
+            height: 40px;
+            width: 300px;
+            border: 4px solid rgb(95, 172, 197);
+        }
+        .username
+        {
+            /* padding-top: 30px; */
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .password
+        {
+            /* padding-top: 30px; */
+            font-weight: bold;
+            font-size: 25px;
+        }
+        .log_in
+        {
+            width: 300px;
+            height: 50px;
+            background-color: rgb(62 62 237);;
+            border-radius: 20px;
+            color: white;
+            font-size: medium;
+            margin-left: 38px;
+        }
+        .log_in:hover{
+            background-color: gold;
+        }
+        .forgot
+        {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: rgb(0, 0, 0);
+            font-size: small;
+            margin: 20px;
+        }
+        .forgot:hover
+        {
+            text-decoration: underline;
+            background-color: rgb(141, 95, 240);
+            width: max-content;
+            border-radius: 10px;
+            color: black;
+        }
+        p.middle
+        {
+            text-align: center;
+        }
+        .new_acc
+        {
+            float:  left;
+            position: relative;
+            left: 1px;
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            color: white;
+        }
+        .signup
+        {
+            position: relative;
+            left: 85px;
+            height: 30px;
+            border-radius: 8px;
+            background-color: blueviolet;
+            color: white;
+            width: 90px;
+            font-weight: bold;
+        }
+        .signup:hover
+        {
+            background-color: green;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+    </style>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .middle
+        {
+            text-align: center;
+            font-family: 'Noto Serif', serif;
+        }
+        h1 
+        {
+            font-family: 'Rubik', sans-serif;
+            text-align: center;
+            color: hotpink;
+        }
+        .title
+        {
+                /* border: 2px solid greenyellow; */
+                position: relative;
+                top: 100px;
+        }
+        .container
+        {
+            
+            display: flex;
+            width: 250px;
+            height: 250px;
+            position: relative;
+            margin: 200px auto;
+            border: 1px solid red;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .item
+        {
+            margin: 5px;
+            width: 200px;
+            height:50px;
+            text-align: center;
+            justify-content: center;
+            background-color: black;
+            border-radius: 25px;  
+        }
+        a{
+            text-decoration: none;
+            color: rgb(238, 236, 236);
+            text-align: center;
+            margin-top: 5px;
+        }
+        a:hover
+        {
+            color: rgb(56, 127, 189);
+        }
+        /* p.last
+        {
+            position: relative;
+            bottom: 10;
+        } */
+    </style>
+</head>
+
+<body background="image/img07.webp">
+    <div class="main">
+        <div class="title">
+            <h1>Category</h1>
+        </div>
+        <div class="container">
+
+            <div class="item">
+            <strong><a href="punja.php" target="_main">Punjabi </a></strong>
+            </div>
+
+            <div class="item">
+                <strong><a href="kath.php" target="_main">Kathiyawadi</a></strong>
+            </div>
+
+            <div class="item">
+                <strong><a href="dri.php" target="_main">Drinks</a></strong>
+            </div>
+
+            <div class="item">
+                <strong><a href="sup.php" target="_main">Soups </a></strong>
+            </div>
+
+            <div class="item">
+                <strong><a href="swe.php" target="_main">Sweets</a></strong>
+            </div>
+            
+        </div>
+    </div>
+    <p class="middle last" style="margin-top:0px;margin-bottom: 0px;color: rgb(234 7 195 / 97%);">Copyright @2022| Designed By <a href="#" style="text-decoration:none;">Hotel H Private Limited</a> </p>
+</body>
+
+</html>
